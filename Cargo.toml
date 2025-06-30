@@ -1,0 +1,14 @@
+[package]
+name = "actix"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.11.0"
+anyhow = "1.0.98"
+serde = { version = "1.0.219", features = ["derive"] }
+solana-client = "2.2.2"
+solana-sdk = "2.2.2"
+
+
+
