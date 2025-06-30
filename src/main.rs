@@ -86,6 +86,7 @@ async fn add_one(data: web::Data<AppState>) -> impl Responder {
     )
 }
 
+
 #[get("/accountinfo/{pubkey}")]
 async fn accountinfo(path:web::Path<String>) -> impl Responder {
     let pubkey_str = path.into_inner();
